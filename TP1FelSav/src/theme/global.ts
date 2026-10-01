@@ -18,6 +18,13 @@ export const globalStyles = StyleSheet.create({
     borderBottomColor: couleurs.secondaire
   },
 
+  icon: {
+    flex: 1,
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexDirection: 'row'
+  }
+
 });
 
 export const styleHeader: NativeStackNavigationOptions = {
