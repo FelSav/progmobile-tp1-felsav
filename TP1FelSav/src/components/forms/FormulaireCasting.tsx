@@ -57,33 +57,6 @@ export default function FormulaireCasting({ mode, soumettreFormulaire }: Formula
         value={persoPref}
         onChangeText={setPersoPref}
       />
-
-      {/* {mode !== "Rechercher" &&
-        <View style={styles.row}>
-          <TextInputAvecIcone
-            icone="cash"
-            placeholder="Prix"
-            value={prix}
-            onChangeText={setPrix}
-            styleConteneur={[styles.rowItem]}
-            keyboardType="numeric"
-          />
-          <TextInputAvecIcone
-            icone="account-group"
-            placeholder="Places"
-            value={places}
-            onChangeText={setPlaces}
-            styleConteneur={[styles.rowItem]}
-            keyboardType="numeric"
-          />
-        </View>
-      } */}
-
-      {/* <TouchableOpacity
-        style={boutonStyles.primaire}
-        onPress={onPress}>
-        <Text style={boutonStyles.primaireTexte}>{mode}</Text>
-      </TouchableOpacity> */}
     </KeyboardAvoidingView>
   )
 }
